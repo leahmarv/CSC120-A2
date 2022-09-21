@@ -1,4 +1,3 @@
-# Import a few useful containers from the typing module
 from calendar import c
 from typing import Dict, Union
 

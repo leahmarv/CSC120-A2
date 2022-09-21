@@ -1,3 +1,7 @@
+# Leah Marville
+# Assignment 2: CSC 120
+# 9/20/2022
+
 class ResaleShop:
 
     from typing import Dict, Union, Optional
