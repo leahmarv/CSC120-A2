@@ -1,18 +1,14 @@
 class ResaleShop:
 
-    # What attributes will it need? (inventory and itemID)
-
     from typing import Dict, Union, Optional
+
     inventory: Dict[int, Dict[str, Union[str, int, bool]]] = {}
     itemID: int = 0
 
-    # How will you set up your constructor?
-    # Remember: in python, all constructors have the same name (__init__)
     def __init__(self, inventory: dict, itemID: int):
         self.__inventory = inventory
         self.__itemID = itemID
 
-    # What methods will you need?
     def buy(computer: Dict[str, Union[str, int, bool]]):
         global itemID
         global inventory
